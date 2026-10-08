@@ -1,0 +1,12 @@
+{
+  "name": "patimikoru",
+  "version": "1.0.0",
+  "private": true,
+  "description": "PatimiKoru — dist klasöründen çalışan web sitesi",
+  "scripts": {
+    "build": "node build.cjs",
+    "start": "node server.cjs",
+    "preview": "node server.cjs --open"
+  },
+  "engines": { "node": ">=18" }
+}
